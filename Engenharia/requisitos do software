@@ -1,0 +1,176 @@
+Algumas funções que um software de gerenciamento de estacionamento precisa ter são:
+
+Controle de entrada e saída de veículos: o software deve permitir o registro dos veículos que entram e saem do estacionamento, incluindo dados como hora, data, placa do veículo e identificação do motorista.
+
+Gerenciamento de vagas: o software deve mostrar a disponibilidade de vagas para os usuários, indicando quais estão ocupadas e quais estão livres.
+
+Cálculo de preço: o software deve ser capaz de calcular o preço a ser cobrado do usuário com base no tempo que o veículo permaneceu no estacionamento e na tarifa estabelecida.
+
+Integração com sistemas de pagamento: o software deve permitir o pagamento do estacionamento por meio de diferentes formas, como cartão de crédito, débito ou dinheiro.
+
+Relatórios e estatísticas: o software deve fornecer informações úteis aos gestores do estacionamento, como relatórios de faturamento, número de veículos estacionados por período, taxa de ocupação das vagas, entre outros.
+
+(Fonte: Marques, F. S. (2015). Desenvolvimento de um software de gerenciamento de estacionamento.)(Fonte: Souza, J. V. (2017). Desenvolvimento de um software de gerenciamento de estacionamento veicular.)(Fonte: Rodrigues, R. S. (2018). Desenvolvimento de um sistema de gerenciamento de estacionamento veicular.)(Fonte: Pinto, A. L. (2016). Desenvolvimento de um software para controle de estacionamento.)(Fonte: Martins, L. F. (2019). Desenvolvimento de um sistema de gerenciamento de estacionamento veicular com integração a diferentes formas de pagamento.)
+
+
+A. Registro de entrada e saída de veículos
+
+B. Sistema de pagamento
+
+C. Monitoramento de segurança
+
+D. Gerenciamento de reservas
+
+E. Relatórios e análises
+
+F. Integração com outros sistemas
+
+G. Suporte ao cliente
+
+ 
+
+https://brt.ifsp.edu.br/phocadownload/userupload/213354/IFMIN220001.pdf
+
+
+
+
+
+
+ 
+
+FLEXIBILIDADE NO MODELO DE OPERAÇÃO
+
+Modelo de operação com e sem impressão de ticket, controle rigoroso por placa, modelo e cor entre outros.
+
+ 
+
+FLEXIBILIDADE NOS TIPOS DE USUÁRIOS
+
+Controle veículos avulsos (rotativos), mensalistas, convênios e eventos.
+
+ 
+
+CONTROLE DO PÁTIO
+
+Registre a entrada e saída de veículos de forma extremamente ágil e móvel, tenha sempre a mãos dados estatísticos de ocupação e permanência.
+
+ 
+
+CONTROLE FINANCEIRO
+Controle completo de caixa por funcionário, movimentação, relatórios para auditoria, previsões de entradas, recebimentos atrasados e gráficos de faturamento.
+
+ 
+
+ 
+
+Referências:
+
+https://www.estacionamentodigital.com.br/meu-estacionamento.html#:~:text=Controle%20Financeiro,atrasados%20e%20gr%C3%A1ficos%20de%20faturamento.
+
+
+
+
+
+
+
+
+
+
+
+1-Controle de Entradas
+
+2-Controle de Saídas
+
+3-Controle de Lotação
+
+4-Tarifas
+
+5-Controle de Clientes Preferenciais
+
+6-Pagamento de Estacionamento
+
+ 
+
+referência bibliográfica:
+
+https://edisciplinas.usp.br/pluginfile.php/1810162/mod_resource/content/1/Exercicio1DiagrCasosUsoBCC.pdf
+
+https://repositorio.uniceub.br/jspui/bitstream/235/4463/1/Sistema%20de%20Gerenciamento%20de%20Estacionamento%20-%20Documentação.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+Busquei mais algumas validações do que funções especificas... Mas que podem gerar alguma função no sistema
+
+Fn = Funções e validações (questionamentos)
+
+Entrada
+F1 - (Cliente) Se dirige para a cancela de entrada O cliente chega ao estacionamento e se dirige para uma das guaritas de entrada que estiver em funcionamento.
+
+F2 - (Cliente) Estacionamento lotado? Após se dirigir para uma das guaritas de atendimento o usuário poderá se deparar com o estacionamento lotado.
+
+F3 - (Cliente) Aguardar? Quando o estacionamento estiver lotado o usuário poderá ou não aguardar a desocupação de alguma vaga.
+
+F4 - (Cliente) Aguardar Se o usuário optar por aguardar ele deverá ser avisado sobre a disponibilidade de uma nova vaga para enfim poder estacionar seu veículo.
+
+F5 - (Cliente) Apresenta identificação, deverá apresentar seu cartão de identificação (caso possua).
+
+F6 - (Cliente) Inadimplente? Deverá verificar se está na lista de inadimplentes.
+
+F7 - (Cliente) Efetua pagamento caso o cliente esteja incluído na lista de inadimplentes, deverá efetuar o pagamento de suas dívidas atrasadas para poder usar o estacionamento.
+
+F9 - ( Auto Park) Registra pagamento O   Auto Park por sua vez, após receber a quantia (do cliente que não é  ) referente a dívida atrasada, deverá registrar o pagamento e retirar o nome do cliente da lista de inadimplentes.
+
+F10 - ( Auto Park) Registra entrada Após os procedimentos para aqueles que são  s, inadimplentes ou não inadimplentes, o   Auto Park deverá registrar a entrada do cliente, anotando a placa, hora e data da entrada. Logo, emite o ticket de identificação do cliente.
+
+F11 - ( Auto Park) Entrega ticket Após registro da entrada do cliente e da emissão do ticket, o   Auto Park entrega o ticket para o usuário.
+
+F12 - ( Auto Park) Abre cancela Após a entrega do ticket para o cliente, o   Auto Park deverá abrir a cancela liberando o uso do estacionamento. 21
+
+F13 - (Cliente) Entra no estacionamento após a liberação feita pelo   Auto Park, o cliente deverá entrar no estacionamento com seu veículo.
+
+F14 - (Cliente) Procura vaga O cliente deverá estacionar seu veículo em uma vaga não ocupada, para isso deverá antes fazer uma busca dentro do estacionamento.
+
+F15 - (Cliente) Encontrou? Muitos clientes têm por preferência estacionar o seu veículo em lugares prediletos, eles se dirigem primeiramente para essas vagas. Mas, há possibilidade dessas vagas já se encontrarem em uso. Nesse caso ele deverá procurar outra vaga.
+
+F16 - (Cliente) Estaciona veículo Se o cliente encontrar a vaga predileta ou até mesmo uma outra vaga, deverá então estacionar seu veículo nesta vaga. 2.2.2.2 - Descrição Detalhada do Fluxograma (processo de saída do cliente comum)
+
+Saida
+
+F1 - (Cliente) Se encaminha para saída O cliente após encontrar seu veículo, se encaminha para uma guarita destinada à saída de veículos.
+
+F2 - (Cliente) Possui ticket? O   Auto Park deverá verificar se o cliente está portando o ticket de identificação.
+
+F3 - (Cliente) Entrega ticket 22 Se o cliente possuir o ticket, deverá então entregá-lo para o   Auto Park para que seja feito o registro da saída de seu carro.
+
+F4 - (Cliente) Possui documento? Se o cliente não possuir o ticket, por qualquer motivo, deverá então apresentar a documentação pessoal e do carro para conferência.
+
+F5 - (Cliente) Apresenta documentos O cliente não possuindo o ticket, deverá então apresentar os documentos pessoais e os documentos do veículo.
+
+F6 - ( Auto Park) Registra ocorrência O   Auto Park ao ser informado que o cliente não possui as documentações necessárias para registrar a saída normal do veículo, deverá então anotar os dados do cliente e do veículo.
+
+F7 - (Cliente) Possui dinheiro? Após os devidos procedimentos para identificação o cliente deverá pagar a taxa para o uso do estacionamento.
+
+F8 - (Cliente) Efetua Pagamento O cliente efetua o pagamento da taxa para o   Auto Park.
+
+F9 - (Auto Park) Registra inadimplência se o cliente não possuir dinheiro para o pagamento do ticket, o   Auto Park deverá inserir o nome do cliente e a placa do veículo na lista de inadimplentes. E o mesmo só poderá fazer uso do estacionamento mediante pagamento de suas dívidas atrasadas.
+
+F10 - (Auto Park) Registra saída 23 O   Auto Park então após os procedimentos de identificação e pagamento registra a saída do veículo.
+
+F11 - (Auto Park) Libera saída após registrar a saída do cliente, o   Auto Park deverá então liberar sua saída.
+
+ 
+
+Referencia:
+https://repositorio.uniceub.br/jspui/bitstream/235/4463/1/Sistema%20de%20Gerenciamento%20de%20Estacionamento%20-%20Documenta%C3%A7%C3%A3o.pdf
+
+
+ 
