@@ -1,0 +1,45 @@
+Brainstorm CONSOLIDADO do Sistema de Gerenciamento de Estacionamento
+
+Funções desejadas no sistema (o que deve permitir fazer):
+
+-Cadastrar/registrar a entrada de veículos com detalhes de placa, marca, modelo, tamanho, cor
+
+-Gerar ticket/comprovante de estacionamento para o dono do veículo na entrada, com detalhes de data de hora de entrada e dados do veículo
+
+-Cobrar a estadia, no momento da retirada do veículo pelo dono, mediante apresentação do ticket de estacionamento
+
+-Integrar com meios de pagamento PIX, Cartão de crédito, Cartão de Débito e TAG (RFID de serviço de cancela automática/free pass)
+
+-Registrar a saída de veículos com detalhes de data, horário e informações do veículo
+
+-Mapear vagas disponíveis para estacionar (quantas vagas livres existem e quantas estão ocupadas), com uso de sensores de presença de veículos nas vagas
+
+-Cadastrar tarifas por dias e horários de estacionamento avulso
+
+-Cadastrar preço de mensalista
+
+-Cadastrar preço de mensalista frotista
+
+-Cadastrar donos de veículos
+
+-Definir descontos de programa de fidelidade dos clientes
+
+-Gerar nota fiscal de serviço após o pagamento
+
+-Registrar situação (avarias) do veículo na entrada e na saída, com streaming de imagens
+
+-Possibilitar consulta prévia de vagas disponíveis pelo cliente do estacionamento
+
+-Possibilitar a reserva prévia de vagas para determinados horários
+
+-Controle de violação de regras de estacionamento
+
+-Mecanismo de sinalização que orienta o motorista a estacionar em uma vaga disponível
+
+-Relatório de taxa de ocupação do estacionamento
+
+-Consulta de ocupação no momento
+
+-Relatório de faturamento
+
+-Controle de abertura e fechamento automático de cancela
